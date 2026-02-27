@@ -20,8 +20,8 @@
 // ========================================
 // BESTELLZEITRAUM HIER EINSTELLEN!
 // ========================================
-const orderStartDate = new Date('2026-02-26'); // Startdatum:
-const orderEndDate = new Date('2026-03-10');   // Enddatum: 2026-03-10
+const orderStartDate = new Date('2026-03-01'); // Startdatum: in die Klammer eintragen, öffnet automatisch
+const orderEndDate = new Date('2026-03-10');   // Enddatum: in die Klammer eintragen, schließt automatisch
 const isOrderPeriodActive = () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -637,8 +637,8 @@ const isOrderPeriodActive = () => {
                     id: 66,
                     name: 'JAKO Rucksack Challenge',
                     category: 'Accessoires',
-                    price: 27.99,
-                    priceAdult: 27.99,
+                    price: 0.00,
+                    priceAdult: 0.00
                     image: 'https://cdn.jako.de/userdata/dcshop/individualization/previews/9/d/preview_9d6448a5d08b48882d11fa73c9771780_1821_500.jpg?1760099499',
                     sizes: ['30Liter'],
                     articleNumber: '1821'
