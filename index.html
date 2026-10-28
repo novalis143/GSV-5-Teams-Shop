@@ -934,7 +934,7 @@ const isOrderPeriodActive = () => {
             const categories = [...new Set(products.map(p => p.category))];
 
             const isAdultSize = (size) => {
-    	    const adultSizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL'];
+    	    const adultSizes = ['S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL'];
    	    return adultSizes.includes(size);
             };
 
